@@ -15,5 +15,8 @@ var app = new Framework7({
   actions: {
     backdrop: false,
   },
+	panel: {
+    swipe: 'left',
+  },
   routes: routes
 });
